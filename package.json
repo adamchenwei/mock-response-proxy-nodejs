@@ -1,0 +1,21 @@
+{
+  "name": "mock-response-proxy-nodejs",
+  "version": "1.0.0",
+  "description": "a mock proxy server in nodejs and webpack-dev-server",
+  "main": "null",
+  "scripts": {
+    "setup": "npm install -g ttab && npm run start",
+    "start": "cd front-end-client && npm start cd .. || ttab -w && cd dev-proxy-content && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamchenwei/mock-response-proxy-nodejs.git"
+  },
+  "author": "Adam Chen Wei <adamchenwei@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adamchenwei/mock-response-proxy-nodejs/issues"
+  },
+  "homepage": "https://github.com/adamchenwei/mock-response-proxy-nodejs#readme"
+}
