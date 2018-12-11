@@ -1,0 +1,17 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "DEPRECATED_SETUP_WORKS_BUT_NOT_NEEDED/dev-proxy/package.json",
+        "DEPRECATED_SETUP_WORKS_BUT_NOT_NEEDED/front-end-web-client/package.json",
+        "DEPRECATED_SETUP_WORKS_BUT_NOT_NEEDED/prod/package.json",
+        "dev-proxy-content/package.json",
+        "dev-proxy/package.json",
+        "front-end-client/package.json",
+        "front-end-web-client/package.json",
+        "package.json",
+        "prod/package.json"
+      ]
+    }
+  }
+}
